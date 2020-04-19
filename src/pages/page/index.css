@@ -1,0 +1,8 @@
+.pageBox {
+  border: 1px solid red;
+  display: flex;
+}
+.srcSty{
+  width:150px;
+  height:300px;
+}
