@@ -5,13 +5,14 @@ import Nav from "./components/Nav";
 import getRouter from "./router";
 import { Provider } from "react-redux";
 import store from "./redux/store";
+import styles from "./index.scss";
 import "../mock/mock.js";
 
 ReactDom.render(
   <Provider store={store}>
     <Router>
       <Nav />
-      {getRouter()}
+      <div className={styles.contentBox}>{getRouter()}</div>
     </Router>
   </Provider>,
   document.getElementById("app")

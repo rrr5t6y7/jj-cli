@@ -1,0 +1,12 @@
+.pageBox {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.srcSty {
+  /* width: 150px; */
+  height: 300px;
+}
