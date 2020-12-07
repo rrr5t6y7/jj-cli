@@ -60,12 +60,9 @@ module.exports = {
     proxy: {
       // 配置服务代理
       "/wisdom-hr-api": {
-        // target: "http://192.168.214.62:8011/", // 线上用
-        // target: "http://192.168.163.152:8011/",
+        // target: "xxx",
 
-        target: "https://sit-wework.tianhong.cn/",
-
-        pathRewrite: { "^/profile-api": "" }, //可转换
+        pathRewrite: { "^/": "" }, //可转换
         changeOrigin: true,
       },
     },
