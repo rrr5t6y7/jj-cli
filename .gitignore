@@ -3,6 +3,8 @@
 # dependencies
 /node_modules
 /server/node_modules
+/server/yarn-error.log
+/server/yarn.lock
 # roadhog-api-doc ignore
 /src/utils/request-temp.js
 _roadhog-api-doc
@@ -15,6 +17,7 @@ _roadhog-api-doc
 .webpackrc
 npm-debug.log*
 yarn-error.log
+yarn.lock
 /dist
 
 /coverage
