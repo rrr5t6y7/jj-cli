@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/server/node_modules
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# production
+/vscode
+
+# misc
+.DS_Store
+.webpackrc
+npm-debug.log*
+yarn-error.log
+/dist
+
+/coverage
+.idea
+*bak
+.vscode/**
